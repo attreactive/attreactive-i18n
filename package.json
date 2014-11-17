@@ -1,0 +1,19 @@
+{
+  "name": "attreactive-i18n",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "main": "lib/i18n",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest-cli": "~0.1"
+  },
+  "jest": {
+    "rootDir": "lib",
+    "testPathIgnorePatterns": [
+      "/__tests__/[^/]*/.+"
+    ]
+  }
+}
